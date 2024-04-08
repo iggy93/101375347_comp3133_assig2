@@ -18,7 +18,7 @@ async function startServer() {
   const DB_USER_PASSWORD = "27JLRztA3kq8qdZV";
   const DB_CLUSTER = "igordbfs.pnpsamk.mongodb.net";
   const DB_NAME = "Comp3133_Assignment1";
-  const mongodb_atlas_url = `mongodb+srv://igorDb3133:27JLRztA3kq8qdZV@igordbfs.pnpsamk.mongodb.net/?retryWrites=true&w=majority`;
+  const mongodb_atlas_url = `mongodb+srv://igorDb3133:27JLRztA3kq8qdZV@igordbfs.pnpsamk.mongodb.net`;
   await mongoose
     .connect(mongodb_atlas_url, {
       useNewUrlParser: true,
